@@ -9,7 +9,11 @@
 * 两周数据库课程设计（实际大概4天左右写完的）的项目，登录界面前端设计参考了他人成果，其余部分全部独立完成，详细功能见功能模块图
 * 使用python+pyqt5，数据库使用MySQL5.7
 
-
+## 待解决和完善
+1. 房间检索还需要手动重置查询结果
+2. 报表的中文显示问题
+3. 输入信息的检查，拟采用正则匹配方式
+4. 拟增加会员功能
 
 ## 运行方法
 
@@ -20,20 +24,18 @@
 5. 运行Main.py即可
 
 
-
 ## 依赖库
 
 pyqt5，pymysql，matplotlib，xlwt
-
 以上使用pip install xxx即可安装
 
+## 功能
 
+![image-20200109132129113](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/function.png)
 
 ## 项目截图
 
 ![image-20200109132059633](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/chart.png)
-
-![image-20200109132129113](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/function.png)
 
 ![image-20200109132214605](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/main.png)
 
