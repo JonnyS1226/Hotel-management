@@ -31,10 +31,15 @@ pyqt5，pymysql，matplotlib，xlwt
 
 ## 项目截图
 
-![image-20200109132059633](C:\Users\Sjy\AppData\Roaming\Typora\typora-user-images\image-20200109132059633.png)
+![image-20200109132059633](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/chart.png)
 
-![image-20200109132129113](C:\Users\Sjy\AppData\Roaming\Typora\typora-user-images\image-20200109132129113.png)
+![image-20200109132129113](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/function.png)
 
-![image-20200109132156385](C:\Users\Sjy\AppData\Roaming\Typora\typora-user-images\image-20200109132156385.png)
+![image-20200109132214605](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/main.png)
 
-![image-20200109132214605](C:\Users\Sjy\AppData\Roaming\Typora\typora-user-images\image-20200109132214605.png)
+![image-20200109132156385](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/login.png)
+
+![image-20200109132214605](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/backup.png)
+
+![image-20200109132214605](https://github.com/JonnyS1226/hotel-management/blob/master/%E6%88%AA%E5%9B%BE/room.png)
+
