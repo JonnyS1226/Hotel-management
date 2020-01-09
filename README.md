@@ -27,6 +27,7 @@
 ## 依赖库
 
 pyqt5，pymysql，matplotlib，xlwt
+
 以上使用pip install xxx即可安装
 
 ## 功能
