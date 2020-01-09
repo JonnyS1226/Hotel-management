@@ -119,7 +119,8 @@ UNLOCK TABLES;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `update_individual_times` AFTER INSERT ON `checkin_client`
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `update_individual_times` AFTER INSERT ON `checkin_client`
+
 FOR EACH ROW update client set accomodation_times=accomodation_times+1 where cid=new.cid */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -169,7 +170,8 @@ UNLOCK TABLES;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `update_team_times` AFTER INSERT ON `checkin_team`
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `update_team_times` AFTER INSERT ON `checkin_team`
+
 FOR EACH ROW update team set accomodation_times=accomodation_times+1 where tid=new.tid */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -335,7 +337,7 @@ CREATE TABLE `team` (
 
 LOCK TABLES `team` WRITE;
 /*!40000 ALTER TABLE `team` DISABLE KEYS */;
-INSERT INTO `team` VALUES ('哈工大威海','1','13896534534','1',2,'2020-01-06 00:50:46'),('张凯丽鞋业','11','13976523423','6',0,'2020-01-04 09:10:02'),('哈工大计算机学院','16','13987667890','3',0,'2020-01-04 09:06:55'),('哈工大','30','13898700998','1',5,'2020-01-05 11:09:25'),('先行创业者社团','32','13962463676','2',0,'2020-01-04 09:06:37'),('腾讯','43','13829833333','1',3,'2020-01-04 11:55:01'),('家家悦','55','13678998789','2',0,'2020-01-05 06:41:05'),('合唱团','7','17878989098','6',1,'2020-01-04 09:25:37'),('阿里巴巴','8','18978978909','4',0,'2020-01-04 09:07:48');
+INSERT INTO `team` VALUES ('hit','1','13896534534','1',2,'2020-01-06 00:50:46'),('zkl','11','13976523423','6',0,'2020-01-04 09:10:02'),('哈工大','16','13987667890','3',0,'2020-01-04 09:06:55'),('哈工大','30','13898700998','1',5,'2020-01-05 11:09:25'),('先行创业者社团','32','13962463676','2',0,'2020-01-04 09:06:37'),('腾讯','43','13829833333','1',3,'2020-01-04 11:55:01'),('家家悦','55','13678998789','2',0,'2020-01-05 06:41:05'),('合唱团','7','17878989098','6',1,'2020-01-04 09:25:37'),('alibaba','8','18978978909','4',0,'2020-01-04 09:07:48');
 /*!40000 ALTER TABLE `team` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
