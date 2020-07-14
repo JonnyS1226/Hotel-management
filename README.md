@@ -30,8 +30,7 @@
 * pymysql：python3与mysql连接
 * matplotlib：用于生成报表
 * xlwt：用于将数据写入excel
-
-以上使用pip install xxx即可安装，无需其它依赖
+以上使用pip安装即可
 
 ## 功能
 
